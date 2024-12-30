@@ -1,89 +1,87 @@
-# ADO Ideas Submission Guide
+---
+name: ADO Submission
+about: Submit an ADO to become part of the aOS
+title: ''
+labels: ADO Submission
+assignees: ''
 
-## What is an ADO?
+---
+### Welcome to the ADO Submission Template. We will be walking through an example of an ADO and the required information to be able to submit for inclusion within the Andromeda Operating System (aOS).
 
-An Andromeda Digital Object (ADO) is a smart contract that follows the Andromeda Protocol's standards for composable and interoperable smart contracts. ADOs can represent anything from simple tokens to complex DeFi protocols.
 
-## Submission Guidelines
+**Contact Information**
+- Name:
+- Discord:
+- Email Address:
+- Github:
+  
+**ADO Repo** (Provide a link to the repo the ADO is developed on)
+  
+**Contract Summary(Details of the contract and specific functionality to be included)**
 
-### 1. Idea Format
-Your ADO idea submission should include:
+**External Reference Links(Link to something that might provide additional information about this ADO and its use cases if applicable)**
 
-- **Title**: A clear, descriptive name for your ADO
-- **Summary**: Brief overview (2-3 sentences)
-- **Problem Statement**: What problem does this ADO solve?
-- **Solution**: How does your ADO solve the problem?
-- **Use Cases**: Real-world applications
-- **Technical Requirements**: Basic technical specifications
-- **Integration Points**: How it connects with other ADOs
+**Contract Flow Breakdown(Step by step explanation of how the ADO from start to finish. Workflow diagram is encouraged)**
 
-### 2. Evaluation Criteria
+1.
+2.
+3.
 
-We evaluate ADO ideas based on:
+**Under what [category](https://github.com/andromedaprotocol/andromeda-core/tree/development/contracts) would you include the ADO(non-fungible-tokens, finance, ecosystem etc..)**
 
-- Innovation and creativity
-- Technical feasibility
-- Market potential
-- Integration capabilities
-- Community benefit
+### Messages
 
-### 3. Submission Process
+**Instantiation (What is specified and stored at instantiation)**
 
-1. Fork this repository
-2. Create a new file in `ado-ideas/submissions/`
-3. Name format: `YYYY-MM-DD-title.md`
-4. Follow the template below
-5. Submit a pull request
 
-## Template
 
-```markdown
-# [ADO Name]
+**Execute Messages (What are the messages that can be executed, what do they do, and who can call each message)**
 
-## Summary
-[2-3 sentences describing your ADO]
+1.
+2.
+3.
 
-## Problem Statement
-[What problem does this solve?]
+**Query Messages (What are the messages that can be queried, what does each return)**
 
-## Solution
-[How does your ADO solve the problem?]
+1. 
+2.
+3.
 
-## Use Cases
-- [Use Case 1]
-- [Use Case 2]
-- [Use Case 3]
+---
 
-## Technical Requirements
-- [Requirement 1]
-- [Requirement 2]
-- [Requirement 3]
+**Possible Next Iterations/Future Work**
 
-## Integration Points
-[How does this ADO interact with other ADOs?]
 
-## Additional Notes
-[Any other relevant information]
-```
+**Possible Concers/Risks (Security,speed,safety,logic)**
 
-## Review Process
 
-1. Initial review by maintainers (2-3 days)
-2. Community feedback period (1 week)
-3. Final decision
-4. If accepted:
-   - Added to development roadmap
-   - Assigned priority level
-   - Resource allocation
+**Other ADO’s to Pair With (Does this ADO work with another existing ADO? If so, which and how? Does it need to be part of an App?)**
 
-## Resources
+**Credits/Associations(Is this ADO inspired by another from the ecosystem? Was it prepared with another partnering group or developers?)**
 
-- [ADO Documentation](https://docs.andromedaprotocol.io/ado)
-- [Technical Specifications](https://docs.andromedaprotocol.io/specs)
-- [Example ADOs](https://github.com/andromedaprotocol/example-ados)
+### Dependencies
 
-## Contact
+**Cargo Dependencies Used**
 
-For questions about ADO submissions:
-- Discord: #ado-development
-- Email: ado@andromedaprotocol.io 
+-
+-
+-
+-
+
+**Third Pary Dependencies(Does this ADO require any third party integrations such as oracles,protocols,specific wallet, or anything off chain)**
+
+**Compatibility(To which chains is the ADO compatable. List the included and excluded chains. Does it require a specific sdk module? If so specify.)**
+
+---
+
+## Additional Sections/Material Needed 
+
+Make sure you have the following in your Repo:
+
+1. Clear and neat ReadMe file that includes a summary of the ADO and documentation on how to use it
+2. ADO should contain unit tests. Testing should cover both positive and negative testing with 90% coverage. Any additional testing (on-chain or other) is also encouraged but not required.
+3. ADO should contain an updated schema file ([Schema generation crate](https://crates.io/crates/cosmwasm-schema))
+
+## Usage Guide
+
+Provide a full exmample of the ADO usage. Include the messages called and the JSON used to call these messages. 

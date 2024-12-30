@@ -1,5 +1,7 @@
 # Open Bounties
 
+[These are only samples. This program has not started yet. Therefore, there are no paid bounties available yet.]
+
 Current bounties available for the Andromeda ecosystem. Each bounty includes a detailed description, requirements, and reward information.
 
 ## Active Bounties

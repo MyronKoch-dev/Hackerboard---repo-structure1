@@ -1,5 +1,46 @@
 # Andromeda HackerBoard
 
+
+## Overview
+This repository manages the Andromeda HackerBoard and its associated functionalities, including tasks, bounties, ADO ideas, contractor bidding processes, ambassador programs, and AI initiatives.
+
+## Repository Structure
+```
+
+andromeda-hackerboard/
+├── README.md
+├── .github/
+│   ├── workflows/
+│   │   ├── leaderboard.yml
+│   │   └── issue-rewards.yml
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug-report.md
+│   │   ├── feature-request.md
+│   │   └── bounty-task.md
+├── categories/
+│   ├── hacker-board/
+│   │   ├── tasks/
+│   │   │   ├── example-task.md
+│   │   └── leaderboard.md
+│   ├── bounties/
+│   │   ├── open-bounties.md
+│   │   └── completed-bounties.md
+│   ├── ado-ideas/
+│   │   ├── submission-guide.md
+│   │   └── submitted-ideas.md
+│   ├── contractor-bidding/
+│   │   ├── how-to-bid.md
+│   │   └── open-projects.md
+│   ├── ambassador-program/
+│   │   ├── program-guide.md
+│   │   └── current-ambassadors.md
+│   └── ai-initiatives/
+│       ├── current-projects.md
+│       └── collaboration-opportunities.md
+```
+
+
+
 Welcome to the Andromeda HackerBoard! This platform organizes tasks, bounties, and opportunities for contributors to build, collaborate, and innovate within the Andromeda ecosystem.
 
 ## Categories
@@ -20,6 +61,34 @@ Welcome to the Andromeda HackerBoard! This platform organizes tasks, bounties, a
 Please read our contribution guidelines before submitting PRs or issues.
 
 ---
+## General Guidelines
+
+### Coding Standards
+- Follow consistent indentation and naming conventions
+- Use camelCase for variables and PascalCase for components
+- Lint JavaScript code with ESLint
+
+### Commit Message Format
+```
+[CATEGORY] Brief description of changes
+
+Examples:
+- [HackerBoard] Added lazy loading for images
+- [Bounties] Updated completed bounties list
+```
+
+### PR Review Process
+- PRs must be reviewed and approved by at least one maintainer
+- Use GitHub Discussions for clarifications
+
+
+
+## Need Help?
+- Review the documentation in each section
+- Open a GitHub Discussion for questions
+- Join our community channels for support 
+---
 ![Contributors](https://img.shields.io/github/contributors/andromedaprotocol/hackerboard)
 ![Forks](https://img.shields.io/github/forks/andromedaprotocol/hackerboard)
 ![Stars](https://img.shields.io/github/stars/andromedaprotocol/hackerboard) 
+
