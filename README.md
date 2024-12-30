@@ -10,41 +10,42 @@ Welcome to the Andromeda HackerBoard! This platform is designed to foster innova
 
 ```
 andromeda-hackerboard/
-├── README.md                       # Main documentation file
-├── .github/                        # GitHub specific configuration
-│   ├── workflows/                  # GitHub Actions workflows
-│   │   ├── leaderboard.yml        # Workflow for managing the leaderboard
-│   │   └── issue-rewards.yml      # Workflow for handling issue rewards
-│   └── ISSUE_TEMPLATE/            # Templates for creating issues
-│       ├── bug-report.md          # Template for bug reports
-│       ├── feature-request.md     # Template for feature requests
-│       ├── bounty-task.md        # Template for bounty tasks
-│       ├── ado-feature-request.md # Template for ADO feature requests
-│       ├── ado-idea-proposal.md  # Template for ADO idea proposals
-│       └── ado-submission.md     # Template for ADO submissions
-├── categories/                    # Main categories of the HackerBoard
-│   ├── hacker-board/             # Tasks and leaderboard
-│   │   ├── tasks/               # Directory for individual task descriptions
-│   │   │   └── example-task.md  # Example task file
-│   │   └── leaderboard.md       # Leaderboard information
-│   ├── bounties/                # Information about bounties
-│   │   ├── open-bounties.md     # List of open bounties
-│   │   └── completed-bounties.md # List of completed bounties
-│   ├── ado-ideas/               # ADO ideas section
-│   │   ├── submission-guide.md  # Guide for submitting ADO ideas
-│   │   └── submitted-ideas.md   # List of submitted ADO ideas
-│   ├── contractor-bidding/      # Contractor bidding information
-│   │   ├── how-to-bid.md       # Guide on how to bid on projects
-│   │   ├── open-projects.md    # List of open projects for bidding
-│   │   └── submitted-bids.md   # List of submitted bids
-│   ├── ambassador-program/      # Ambassador program details
-│   │   ├── program-guide.md    # Guide to the ambassador program
-│   │   └── current-ambassadors.md # List of current ambassadors
-│   └── ai-initiatives/          # AI-related initiatives
-│       ├── current-projects.md  # Current AI projects
-│       ├── initiative-guidelines.md # Guidelines for AI initiatives
+├── README.md                           # Main documentation file
+├── .github/                            # GitHub specific configuration
+│   ├── workflows/                      # GitHub Actions workflows
+│   │   ├── leaderboard.yml             # Workflow for managing the leaderboard
+│   │   └── issue-rewards.yml           # Workflow for handling issue rewards
+│   └── ISSUE_TEMPLATE/                 # Templates for creating issues
+│       ├── bug-report.md               # Template for bug reports
+│       ├── feature-request.md          # Template for feature requests
+│       ├── bounty-task.md              # Template for bounty tasks
+│       ├── ado-feature-request.md      # Template for ADO feature requests
+│       ├── ado-idea-proposal.md        # Template for ADO idea proposals
+│       └── ado-submission.md           # Template for ADO submissions
+├── categories/                         # Main categories of the HackerBoard
+│   ├── hacker-board/                   # Tasks and leaderboard
+│   │   ├── tasks/                      # Directory for individual task descriptions
+│   │   │   └── example-task.md         # Example task file
+│   │   └── leaderboard.md              # Leaderboard information
+│   ├── bounties/                       # Information about bounties
+│   │   ├── open-bounties.md            # List of open bounties
+│   │   └── completed-bounties.md       # List of completed bounties
+│   ├── ado-ideas/                      # ADO ideas section
+│   │   ├── submission-guide.md         # Guide for submitting ADO ideas
+│   │   └── submitted-ideas.md          # List of submitted ADO ideas
+│   ├── contractor-bidding/             # Contractor bidding information
+│   │   ├── how-to-bid.md               # Guide on how to bid on projects
+│   │   ├── open-projects.md            # List of open projects for bidding
+│   │   └── submitted-bids.md           # List of submitted bids
+│   ├── ambassador-program/             # Ambassador program details
+│   │   ├── program-guide.md            # Guide to the ambassador program
+│   │   └── current-ambassadors.md      # List of current ambassadors
+│   └── ai-initiatives/                 # AI-related initiatives
+│       ├── current-projects.md         # Current AI projects
+│       ├── initiative-guidelines.md    # Guidelines for AI initiatives
 │       └── collaboration-opportunities.md # Opportunities for AI collaboration
 ```
+
 
 ## Categories
 
